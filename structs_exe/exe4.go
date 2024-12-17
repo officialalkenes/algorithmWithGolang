@@ -29,6 +29,6 @@ func main() {
 	}
 	avg_grade := calculateAvg(student1)
 	student1.AverageGrade = avg_grade
-	fmt.Printf("The name of the new student is %s. Here are his grades: %v. His Average grade is %v.",
+	fmt.Printf("The name of the new student is %s. Here are his grades: %v. His Average grade is %.2f.\n",
 		student1.Name, student1.Grades, student1.AverageGrade)
 }
